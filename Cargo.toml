@@ -1,0 +1,11 @@
+[package]
+name = "rust-leetcode"
+version = "0.1.0"
+edition = "2021"
+
+# Specify other binaries
+[[bin]]
+name = "merge_sorted_array"
+path = "src/top-interview-150/88_merge_sorted_array.rs"
+
+[dependencies]
